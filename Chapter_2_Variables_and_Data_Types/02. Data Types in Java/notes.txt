@@ -1,0 +1,13 @@
+JAVA PRIMITIVE DATA TYPES
+
+byte: 1 byte; range -128 to 127
+short: 2 bytes; range -32,768 to 32,767
+char: 2 bytes; UTF-16 code unit
+boolean: true or false; Java does not specify a fixed storage size
+int: 4 bytes
+long: 8 bytes
+float: 4 bytes
+double: 8 bytes
+
+1 byte = 8 bits.
+Note: Some teaching slides show boolean as 1 byte, but the Java language specification does not define a fixed size for boolean variables.

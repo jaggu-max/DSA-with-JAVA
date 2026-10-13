@@ -1,0 +1,20 @@
+CALCULATE SIMPLE INTEREST
+
+Problem: Calculate simple interest using principal P, rate R, and time T.
+
+Formula:
+SI = (P × R × T) / 100
+
+Algorithm:
+1. Start.
+2. Input P, R, and T.
+3. Calculate SI = (P * R * T) / 100.
+4. Print SI.
+5. Stop.
+
+Pseudocode:
+START
+INPUT P, R, T
+SI = (P * R * T) / 100
+PRINT SI
+STOP

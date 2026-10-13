@@ -1,0 +1,20 @@
+TYPE CASTING IN JAVA
+
+Type casting means manually converting a value from one data type to another.
+
+Example of widening (usually automatic):
+int number = 25;
+double value = number;
+
+Example of narrowing (explicit cast required):
+double price = 25.12;
+int whole = (int) price;  // whole becomes 25; decimal part is lost
+
+Important:
+- A double literal such as 25.12 cannot be assigned directly to float. Use 25.12f.
+- A float cannot be assigned directly to int because this may lose the decimal part.
+- Use an explicit cast when narrowing: int b = (int) a;
+
+Example output:
+25
+25

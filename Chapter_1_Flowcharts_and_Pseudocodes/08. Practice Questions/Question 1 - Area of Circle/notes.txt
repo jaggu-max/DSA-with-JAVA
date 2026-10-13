@@ -1,0 +1,13 @@
+QUESTION 1: AREA OF A CIRCLE
+
+Pseudocode:
+START
+INPUT radius
+area = 3.14159 * radius * radius
+PRINT area
+STOP
+
+Flowchart:
+Start → Input radius → Calculate area = 3.14159 × radius × radius → Print area → End.
+
+See ../Solution Sheet.txt for the full Java answer and example.

@@ -1,0 +1,14 @@
+QUESTION 3: EVEN NUMBERS BETWEEN 9 AND 100
+
+Pseudocode:
+START
+num = 10
+WHILE num <= 100
+    PRINT num
+    num = num + 2
+END WHILE
+STOP
+
+Flowchart:
+Start → num=10 → Check num<=100 → Yes: print num, add 2, repeat → No: End.
+See ../Solution Sheet.txt for the full Java answer and example.

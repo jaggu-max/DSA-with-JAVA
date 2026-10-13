@@ -1,0 +1,17 @@
+SUM OF TWO NUMBERS
+
+Problem: Read two numbers and print their sum.
+
+Algorithm:
+1. Start.
+2. Input a and b.
+3. Calculate sum = a + b.
+4. Print sum.
+5. Stop.
+
+Pseudocode:
+START
+INPUT a, b
+sum = a + b
+PRINT sum
+STOP

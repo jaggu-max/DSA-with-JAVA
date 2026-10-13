@@ -1,0 +1,12 @@
+A variable is a named place used to store a value.
+Example: int a = 10; int b = 5;
+- int: data type
+- a, b: variable names (identifiers)
+- 10, 5: values (literals)
+Expression: 2 * (a + b) = 2 * (10 + 5) = 30
+
+Identifier rules:
+- Can contain letters, digits, _ and $.
+- Cannot start with a digit.
+- Cannot be a Java keyword.
+- Java identifiers are case-sensitive.

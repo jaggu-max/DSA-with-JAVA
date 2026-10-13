@@ -1,0 +1,26 @@
+SUM OF TWO NUMBERS USING USER INPUT
+
+Problem: Read two integers from the user and print their sum.
+
+Algorithm:
+1. Start.
+2. Create a Scanner object.
+3. Read integers a and b.
+4. Calculate sum = a + b.
+5. Print sum.
+6. Stop.
+
+Pseudocode:
+START
+INPUT a
+INPUT b
+sum = a + b
+PRINT sum
+STOP
+
+Example:
+Input:
+10
+5
+Output:
+15

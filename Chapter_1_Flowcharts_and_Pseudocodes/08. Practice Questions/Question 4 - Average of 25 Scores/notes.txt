@@ -1,0 +1,18 @@
+QUESTION 4: AVERAGE OF 25 EXAM SCORES
+
+Pseudocode:
+START
+sum = 0
+count = 1
+WHILE count <= 25
+    INPUT score
+    sum = sum + score
+    count = count + 1
+END WHILE
+average = sum / 25.0
+PRINT average
+STOP
+
+Flowchart:
+Start → initialize sum and count → check count<=25 → Yes: input score, add to sum, increment count, repeat → No: calculate average and print → End.
+See ../Solution Sheet.txt for the full Java answer and example.

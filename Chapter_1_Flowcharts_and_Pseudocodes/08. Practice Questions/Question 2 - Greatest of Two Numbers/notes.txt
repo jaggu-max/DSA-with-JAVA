@@ -1,0 +1,17 @@
+QUESTION 2: GREATEST OF TWO NUMBERS
+
+Pseudocode:
+START
+INPUT a, b
+IF a > b
+    PRINT a
+ELSE IF b > a
+    PRINT b
+ELSE
+    PRINT "Both numbers are equal"
+END IF
+STOP
+
+Flowchart:
+Start → Input a,b → Decide a>b? → print a if yes; otherwise decide b>a? → print b if yes, otherwise print equal → End.
+See ../Solution Sheet.txt for the full Java answer and example.

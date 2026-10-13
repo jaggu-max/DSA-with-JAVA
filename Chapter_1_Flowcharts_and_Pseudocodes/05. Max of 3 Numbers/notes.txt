@@ -1,0 +1,23 @@
+MAXIMUM OF THREE NUMBERS
+
+Problem: Read a, b, and c, then print the greatest.
+
+Algorithm:
+1. Start.
+2. Input a, b, c.
+3. If a >= b and a >= c, print a.
+4. Otherwise, if b >= a and b >= c, print b.
+5. Otherwise, print c.
+6. Stop.
+
+Pseudocode:
+START
+INPUT a, b, c
+IF a >= b AND a >= c
+    PRINT a
+ELSE IF b >= a AND b >= c
+    PRINT b
+ELSE
+    PRINT c
+END IF
+STOP

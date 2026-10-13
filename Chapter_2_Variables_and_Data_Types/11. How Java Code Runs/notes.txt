@@ -1,0 +1,12 @@
+HOW JAVA CODE RUNS
+
+1. Write source code in a .java file.
+2. The Java compiler (javac) compiles source code into bytecode in a .class file.
+3. The Java Virtual Machine (JVM) loads and executes the bytecode.
+4. The JVM uses the runtime environment to run the program on the operating system.
+
+Example commands:
+javac Hello.java
+java Hello
+
+The java command uses the class name without the .class extension.

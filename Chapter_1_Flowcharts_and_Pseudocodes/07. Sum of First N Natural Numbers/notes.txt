@@ -1,0 +1,32 @@
+SUM OF THE FIRST N NATURAL NUMBERS
+
+Problem: Find 1 + 2 + 3 + ... + n.
+
+Variables:
+- n: last natural number to add
+- val: current number being added
+- sum: running total
+
+Algorithm:
+1. Start.
+2. Input n.
+3. Set val = 1 and sum = 0.
+4. While val <= n:
+   - sum = sum + val
+   - val = val + 1
+5. Print sum.
+6. Stop.
+
+Pseudocode:
+START
+INPUT n
+val = 1
+sum = 0
+WHILE val <= n
+    sum = sum + val
+    val = val + 1
+END WHILE
+PRINT sum
+STOP
+
+For n = 5, the total is 1 + 2 + 3 + 4 + 5 = 15.

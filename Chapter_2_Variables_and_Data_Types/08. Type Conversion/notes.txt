@@ -1,0 +1,18 @@
+TYPE CONVERSION IN JAVA
+
+Type conversion changes a value from one data type to another.
+
+Widening conversion (automatic):
+- The destination type can represent the source type's range more broadly.
+- Example: int → long, int → double.
+
+Narrowing conversion (explicit cast):
+- A value is converted to a type with a smaller range or precision.
+- Data may be lost.
+- Example: double → int.
+
+Common numeric widening order:
+byte → short → int → long → float → double
+
+Important:
+char can widen to int, but boolean cannot be converted to a numeric type.

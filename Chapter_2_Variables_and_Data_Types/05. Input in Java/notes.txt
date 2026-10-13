@@ -1,0 +1,22 @@
+INPUT IN JAVA USING SCANNER
+
+Import Scanner:
+import java.util.Scanner;
+
+Create a Scanner:
+Scanner sc = new Scanner(System.in);
+
+Common Scanner methods:
+- next(): reads one token (stops at whitespace).
+- nextLine(): reads a full line of text.
+- nextInt(): reads an int.
+- nextByte(): reads a byte.
+- nextShort(): reads a short.
+- nextLong(): reads a long.
+- nextFloat(): reads a float.
+- nextDouble(): reads a double.
+- nextBoolean(): reads true or false.
+
+Remember:
+- Use the method that matches the variable's type.
+- If you use nextInt() and then nextLine(), the newline left by nextInt() may be consumed by nextLine(). Call sc.nextLine() once after nextInt() if you need to read a full line next.

@@ -1,0 +1,39 @@
+CHECK WHETHER A NUMBER IS PRIME
+
+Definition: A prime number is an integer greater than 1 with exactly two positive factors: 1 and itself.
+
+Algorithm:
+1. Start.
+2. Input n.
+3. If n <= 1, print Not Prime.
+4. Otherwise set div = 2.
+5. While div < n:
+   - If n % div == 0, print Not Prime and stop checking.
+   - Otherwise increment div by 1.
+6. If no divisor was found, print Prime.
+7. Stop.
+
+Pseudocode:
+START
+INPUT n
+IF n <= 1
+    PRINT "Not Prime"
+ELSE
+    div = 2
+    isPrime = true
+    WHILE div < n
+        IF n % div == 0
+            isPrime = false
+            BREAK
+        END IF
+        div = div + 1
+    END WHILE
+    IF isPrime
+        PRINT "Prime"
+    ELSE
+        PRINT "Not Prime"
+    END IF
+END IF
+STOP
+
+Note: Checking divisors only up to the square root of n is a faster optimization, but this version follows the beginner flowchart's approach.

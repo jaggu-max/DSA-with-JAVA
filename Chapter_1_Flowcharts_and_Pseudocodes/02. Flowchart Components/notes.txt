@@ -1,0 +1,10 @@
+FLOWCHART COMPONENTS
+
+1. Terminator (oval): Start or End.
+2. Input/Output (parallelogram): Read input or display output.
+3. Process (rectangle): Perform an operation or calculation.
+4. Decision (diamond): Check a condition and follow a Yes/No branch.
+5. Flow line (arrow): Shows the direction of execution.
+
+Example:
+Start → Input a, b → sum = a + b → Print sum → End

@@ -1,0 +1,15 @@
+WHAT ARE FLOWCHARTS?
+
+A flowchart is a diagram that represents the steps of an algorithm using standard symbols connected by arrows.
+
+Common uses:
+- Understand the order of steps.
+- Show decisions and loops clearly.
+- Plan a solution before writing code.
+
+Typical symbols:
+- Oval: Start/End
+- Parallelogram: Input/Output
+- Rectangle: Process/calculation
+- Diamond: Decision (Yes/No)
+- Arrow: Direction of flow

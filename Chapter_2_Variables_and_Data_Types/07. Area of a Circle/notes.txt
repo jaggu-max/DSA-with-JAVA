@@ -1,0 +1,14 @@
+AREA OF A CIRCLE
+
+Problem: Read the radius and calculate the area of a circle.
+
+Formula:
+area = π × radius × radius
+Using π ≈ 3.14:
+area = 3.14 × radius × radius
+
+Example:
+Input: 2
+Output: 12.56
+
+Note: In Java, 3.14 is a double literal. Use double for the area, or write 3.14f when assigning to a float.

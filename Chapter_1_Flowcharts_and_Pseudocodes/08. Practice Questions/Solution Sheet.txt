@@ -1,0 +1,221 @@
+CHAPTER 1 ASSIGNMENT – SOLUTION SHEET
+Includes algorithm, pseudocode, Java solution, and flowchart steps for all four questions.
+
+============================================================
+QUESTION 1: AREA OF A CIRCLE
+============================================================
+
+Problem:
+Input the radius and calculate the circle's area.
+Formula: area = π × radius × radius
+Use π = 3.14159.
+
+Algorithm:
+1. Start.
+2. Input radius.
+3. Calculate area = 3.14159 * radius * radius.
+4. Print area.
+5. Stop.
+
+Pseudocode:
+START
+INPUT radius
+area = 3.14159 * radius * radius
+PRINT area
+STOP
+
+Flowchart steps:
+Start (oval) → Input radius (parallelogram) → Calculate area (rectangle) → Print area (parallelogram) → End (oval).
+
+Java:
+import java.util.Scanner;
+
+public class AreaOfCircle {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter radius: ");
+        double radius = sc.nextDouble();
+
+        if (radius < 0) {
+            System.out.println("Radius cannot be negative.");
+        } else {
+            double area = 3.14159 * radius * radius;
+            System.out.println("Area = " + area);
+        }
+        sc.close();
+    }
+}
+
+Example:
+Input:  radius = 2
+Output: Area = 12.56636
+
+============================================================
+QUESTION 2: GREATEST OF TWO NUMBERS
+============================================================
+
+Problem:
+Input two numbers and print the greater number. If they are equal, report that they are equal.
+
+Algorithm:
+1. Start.
+2. Input a and b.
+3. If a > b, print a.
+4. Else if b > a, print b.
+5. Otherwise print that both are equal.
+6. Stop.
+
+Pseudocode:
+START
+INPUT a, b
+IF a > b
+    PRINT a, "is greater"
+ELSE IF b > a
+    PRINT b, "is greater"
+ELSE
+    PRINT "Both numbers are equal"
+END IF
+STOP
+
+Flowchart steps:
+Start → Input a, b → Decision: a > b?
+- Yes → Print a is greater → End.
+- No → Decision: b > a?
+  - Yes → Print b is greater → End.
+  - No → Print both are equal → End.
+
+Java:
+import java.util.Scanner;
+
+public class GreatestOfTwoNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter two numbers: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a > b) {
+            System.out.println(a + " is greater");
+        } else if (b > a) {
+            System.out.println(b + " is greater");
+        } else {
+            System.out.println("Both numbers are equal");
+        }
+        sc.close();
+    }
+}
+
+Example:
+Input:  12 8
+Output: 12 is greater
+
+============================================================
+QUESTION 3: EVEN NUMBERS BETWEEN 9 AND 100
+============================================================
+
+Problem:
+Print all even numbers from 9 through 100. Since 9 is odd, the first number printed is 10.
+
+Algorithm:
+1. Start.
+2. Set num = 10.
+3. While num <= 100:
+   - Print num.
+   - Set num = num + 2.
+4. Stop.
+
+Pseudocode:
+START
+num = 10
+WHILE num <= 100
+    PRINT num
+    num = num + 2
+END WHILE
+STOP
+
+Flowchart steps:
+Start → Set num = 10 → Decision: num <= 100?
+- Yes → Print num → Set num = num + 2 → Return to decision.
+- No → End.
+
+Java:
+public class EvenNumbersBetween9And100 {
+    public static void main(String[] args) {
+        int num = 10;
+
+        while (num <= 100) {
+            System.out.print(num + " ");
+            num = num + 2;
+        }
+        System.out.println();
+    }
+}
+
+Example output:
+10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
+52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92
+94 96 98 100
+
+============================================================
+QUESTION 4: AVERAGE OF 25 EXAM SCORES
+============================================================
+
+Problem:
+Read 25 exam scores, calculate their total, and divide by 25 to find the average.
+
+Algorithm:
+1. Start.
+2. Set count = 1 and sum = 0.
+3. While count <= 25:
+   - Input score.
+   - Add score to sum.
+   - Increase count by 1.
+4. Calculate average = sum / 25.0.
+5. Print average.
+6. Stop.
+
+Pseudocode:
+START
+sum = 0
+count = 1
+WHILE count <= 25
+    INPUT score
+    sum = sum + score
+    count = count + 1
+END WHILE
+average = sum / 25.0
+PRINT average
+STOP
+
+Flowchart steps:
+Start → Set sum = 0, count = 1 → Decision: count <= 25?
+- Yes → Input score → sum = sum + score → count = count + 1 → Return to decision.
+- No → average = sum / 25.0 → Print average → End.
+
+Java:
+import java.util.Scanner;
+
+public class AverageOf25Scores {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double sum = 0;
+        int count = 1;
+
+        while (count <= 25) {
+            System.out.print("Enter score " + count + ": ");
+            double score = sc.nextDouble();
+            sum = sum + score;
+            count++;
+        }
+
+        double average = sum / 25.0;
+        System.out.println("Average = " + average);
+        sc.close();
+    }
+}
+
+Example:
+If all 25 scores are 80, the average is 80.0.
+
+Note:
+The course solution sheet says flowcharts are provided. These text steps describe how to draw each flowchart; draw them separately in your notebook or a flowchart tool using the standard symbols.

@@ -1,0 +1,14 @@
+TYPE PROMOTION IN EXPRESSIONS
+
+In arithmetic expressions, Java may promote smaller numeric types to int or a wider type before calculating.
+
+Example:
+byte a = 10;
+byte b = 20;
+int sum = a + b;
+
+Although a and b are bytes, a + b is evaluated as an int.
+
+For mixed types, the result generally uses the wider operand type:
+int + double → double
+int + long → long

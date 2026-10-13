@@ -1,0 +1,8 @@
+SUM OF a AND b
+
+Given a = 10 and b = 5:
+sum = a + b
+sum = 10 + 5
+sum = 15
+
+Variables a and b hold their values. The result can be stored in a third variable named sum.

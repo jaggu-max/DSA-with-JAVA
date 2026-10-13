@@ -1,0 +1,21 @@
+COMMENTS IN JAVA
+
+Comments explain code to people reading it. Java ignores comments during execution.
+
+1. Single-line comment:
+   // This is a single-line comment
+
+2. Multi-line comment:
+   /*
+      This is a multi-line comment.
+      It can span several lines.
+   */
+
+3. Documentation comment:
+   /** This is a documentation comment. */
+
+Example:
+- Use // for a short explanation.
+- Use /* ... */ for a longer explanation.
+
+Comments do not change the program output.

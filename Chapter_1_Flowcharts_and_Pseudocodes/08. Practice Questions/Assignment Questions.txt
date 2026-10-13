@@ -1,0 +1,15 @@
+CHAPTER 1 ASSIGNMENT: FLOWCHARTS AND PSEUDOCODES
+
+Instructions:
+- Attempt each question yourself first.
+- Draw a flowchart using standard symbols.
+- Write pseudocode before writing Java code.
+- Compare your work with the Solution Sheet.
+
+Question 1: Draw a flowchart and write pseudocode to calculate the area of a circle. Read the radius as input. Use π = 3.14159.
+
+Question 2: Draw a flowchart and write pseudocode to find the greatest of two numbers.
+
+Question 3: Draw a flowchart and write pseudocode to print all even numbers between 9 and 100, inclusive.
+
+Question 4: Draw a flowchart and write pseudocode to calculate the average of 25 exam scores. Read all 25 scores and print their average.
